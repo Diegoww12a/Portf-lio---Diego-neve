@@ -99,7 +99,7 @@ body{
     flex-direction: column;
     margin-top: 80px;
 }
-.PROJETCS{
+.projetos{
     display: flex;
     flex-direction: column;
     /* border: 1px solid red;  */
@@ -107,7 +107,7 @@ body{
     gap: 40px;
     margin-top: 30px;
 }
-.PROJETCS h1{
+.projetos h1{
     font-size: 25px;
     
 }
