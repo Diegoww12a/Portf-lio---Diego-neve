@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0f172a;
+    /* border: 1px solid red; */
+}
+.container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    width: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    /* border: 1px solid red; */
+}
+.name-right{
+    display: flex;
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 50%;
+    flex-direction: column; 
+    height: 100vh;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    padding: 20px 10px;
+    color: #d0daeb;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #64738f;
+}
+.name h1{
+    font-size: 37px;
+}
+.name h5{
+    font-size: 24px;
+}
+.name-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    width: 30%;
+    /* border: 1px solid red; */
+    padding: 20px 10px;
+}
+.name-link a{
+    color: #35435d;
+    text-decoration: none;
+    transition: all, 0.3s ease;
+}
+.name-link a:hover{
+    color: white;
+}
+.social-icons{
+    display: flex;
+    font-size: 44px;
+    padding: 20px 10px;
+    margin-top: 450px;
+    gap: 20px;
+}
+.social-icons a{
+    color: white;
+    transition: all, 0.3s ease-in-out;
+}
+.social-icons a:hover{
+    color: rgb(134, 134, 134);
+}
+.Sobre-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding: 20px 10px;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.Sobre-content h1{
+    /* width: 65%; */
+    display: flex;
+    flex-direction: column;
+    color: #64738f;
+    line-height: 25px;
+    font-size: 16px;
+}
+.texto-sobre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.PROJETCS{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red;  */
+    height: 100vh;
+    gap: 40px;
+    margin-top: 30px;
+}
+.PROJETCS h1{
+    font-size: 25px;
+    
+}
+.web{
+    display: flex;
+    /* border: 1px solid red; */
+    color: white;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    font-size: 12px;
+    align-items: center;
+}
+
+.web h2{
+    margin-left: 5%;
+}
+button{
+    /* display: flex; */
+    margin-left: auto;
+    padding: 10px;
+    border: 1px solid rgb(167, 160, 160);
+    width: 150px;
+    font-size: 15px;
+    background-color: #0f172a;
+    transition: all, 0.5s ease;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5); /* cor fraca com transparência */
+
+    
+    
+}
+.botao{
+   margin-left: auto;
+    
+}
+.web a{
+    text-decoration: none;
+    
+}
+@media (max-width: 768px){
+    .name-right{
+        display: flex;
+        position: absolute;
+        margin-left: auto;
+         /* margin-left: 13px; */
+    }
+    .Sobre-content{
+        display: flex;
+        /* margin-right: auto; */
+        margin-top: 500px;
+        
+    }
+    .social-icons{
+        display: flex;
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .texto-sobre{
+        display: flex;
+        width: 350px;
+        /* border: 1px solid red; */
+        margin-left: -200px;
+    }
+    .texto-sobre h1{
+        width: 100%;
+        font-size: 15px;
+    }
+    .PROJETCS{
+        display: flex;
+        margin-left: -200px;
+    }
+}
+@media (max-width: 360px){
+    .Sobre-content{
+        margin-right: -5%;
+    }
+}
